@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skout HR"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_marginTop="-100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKOUT"
+        android:textSize="70dp"
+        android:textColor="#1EAD24"
+        android:layout_marginTop="100dp"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="+2349389904969"
+        android:background="#D2CFCF"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:text="Password"
+        android:background="#CCC9C9"
+        android:textColor="#000"
+        />
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="60dp"
+        android:text="Login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:layout_marginRight="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textSize="16dp"
+        android:textColor="#2FE136"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="-20dp"
+
+
+
+
+</LinearLayout>
