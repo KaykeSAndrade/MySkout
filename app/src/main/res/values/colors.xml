@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="corComp1">#ff2a87</color>
+    <color name="corComp2">#196AAB</color>
+    <color name="corComp3">#E8D953</color>
+    <color name="corComp4">#26B12C</color>
+
 </resources>

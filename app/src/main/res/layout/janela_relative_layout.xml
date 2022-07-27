@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Janela_Relative_Activity">
+
+    <TextView
+        android:id="@+id/txtCompA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/componente_a"
+        android:textAllCaps="false"
+        android:textColor="@color/corComp1"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCompB"
+        android:layout_toRightOf="@id/txtCompA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="componente B"
+        android:textAllCaps="false"
+        android:textColor="@color/corComp2"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCompC"
+        android:layout_below="@id/txtCompB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Componente C"
+        android:textAllCaps="false"
+        android:textColor="@color/corComp3"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtCompD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCompB"
+        android:layout_toRightOf="@id/txtCompC"
+        android:text="Componente D"
+        android:textAllCaps="false"
+        android:textColor="@color/corComp4"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="Talents, Jobs e recruitment"
         android:textSize="60px"
-        android:textColor="#FFF"
+        android:textColor="#FFF"/>
 
 
 </LinearLayout>

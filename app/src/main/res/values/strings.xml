@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MySkout</string>
+    <string name="componente_a">Componente A</string>
+    <string name="componente_b">Componente B</string>
+    <string name="componente_c">Componente C</string>
+    <string name="componente_d">Componente D</string>
+    <string name="insira_seu_usu_rio">Insira Seu Usuário</string>
+    <string name="insira_sua_senha">Insira sua Senha</string>
+    <string name="insira_seu_email">insira seu email</string>
+    <string name="imagem_principal">Imagem principal</string>
 </resources>
