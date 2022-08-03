@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InnerActivity">
+    tools:context=".InnerActivity"
+    android:background="@drawable/botao_desenho">
 
     <LinearLayout
         android:orientation="vertical"
@@ -13,9 +14,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/home"/>
+        android:src="@drawable/home"
+        android:layout_gravity="center"/>
 
     <EditText
+        android:background="@drawable/borda_botao"
         android:id="@+id/edtUsuario"
         android:drawableRight="@drawable/ic_baseline_email"
         android:layout_width="match_parent"
@@ -23,9 +26,10 @@
         android:contentDescription="Usuário"
         android:hint="@string/insira_seu_email"
         android:inputType="textEmailAddress"
-        android:maxLength="50" />
+        android:maxLength="50"/>
 
     <EditText
+        android:background="@drawable/borda_botao"
         android:id="@+id/edtSenha"
         android:drawableRight="@drawable/ic_baseline_lock"
         android:layout_width="match_parent"
@@ -36,19 +40,24 @@
         android:maxLength="30" />
 
     <Button
+        android:background="@drawable/borda_botao"
         android:id="@+id/btnEntrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Entrar"
-        android:layout_margin="5dp"/>
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
 
 
     <Button
+        android:background="@drawable/borda_botao"
         android:id="@+id/btnSair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sair"
         android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:onClick="sairSistema"
         />
     </LinearLayout>
-</ScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -14,6 +14,16 @@
         android:theme="@style/Theme.MySkout"
         tools:targetApi="31">
         <activity
+            android:name=".MenuPrincipalActivity"
+            android:exported="false"
+            android:theme="@style/temaSemBarra"/>
+        <activity
+            android:name=".JanelaComponentesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JanelaCoordnatorActivity"
+            android:exported="false" />
+        <activity
             android:name=".InnerActivity"
             android:exported="false" />
         <activity
@@ -27,19 +37,21 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/temaSemBarra" />
         <activity
             android:name=".SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/temaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
